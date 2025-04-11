@@ -5,9 +5,9 @@
     "passes": 16,
     "pending": 0,
     "failures": 8,
-    "start": "2025-04-09T19:02:56.638Z",
-    "end": "2025-04-09T19:08:20.298Z",
-    "duration": 221517,
+    "start": "2025-04-10T19:53:17.398Z",
+    "end": "2025-04-10T19:58:43.541Z",
+    "duration": 226147,
     "testsRegistered": 24,
     "passPercent": 66.66666666666667,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "db71dfb5-3f39-4aa2-8072-9780d5e2ecf7",
+      "uuid": "d7671c7d-d5c3-4ce0-9e05-0e5f822a3115",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\employee\\contact_us.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\employee\\contact_us.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d5f928b2-72d3-4de4-a97e-a2ced7d83f63",
+          "uuid": "950faa9c-768b-46ee-807d-b0052e1430b7",
           "title": "UT : Employee : Contact Us",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Employee : Contact Us Default items should visible",
               "timedOut": null,
-              "duration": 23531,
+              "duration": 24226,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "CONTACT_US.verifyItemsIfExist();",
               "err": {},
-              "uuid": "d816c872-9314-4e5f-8915-a9e07192a83f",
-              "parentUUID": "d5f928b2-72d3-4de4-a97e-a2ced7d83f63",
+              "uuid": "38283b3b-ede6-4d8d-aa28-d229176ba8d9",
+              "parentUUID": "950faa9c-768b-46ee-807d-b0052e1430b7",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "UT : Employee : Contact Us Check texts/labels if visible",
               "timedOut": null,
-              "duration": 175,
+              "duration": 159,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-              "uuid": "d6529900-25ac-4f2f-85d2-7d3aab5b4e3b",
-              "parentUUID": "d5f928b2-72d3-4de4-a97e-a2ced7d83f63",
+              "uuid": "f5a50b45-8872-470e-905f-5f706358b8a4",
+              "parentUUID": "950faa9c-768b-46ee-807d-b0052e1430b7",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Validate Cancel submission",
               "fullTitle": "UT : Employee : Contact Us Validate Cancel submission",
               "timedOut": null,
-              "duration": 2032,
+              "duration": 1955,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-              "uuid": "98abbb2a-3fc5-4ffe-a054-770e09dd52bf",
-              "parentUUID": "d5f928b2-72d3-4de4-a97e-a2ced7d83f63",
+              "uuid": "002a9938-dad8-4947-a987-b2da5ea9e864",
+              "parentUUID": "950faa9c-768b-46ee-807d-b0052e1430b7",
               "isHook": false,
               "skipped": false
             },
@@ -92,32 +92,32 @@
               "title": "Validate contact-us submission",
               "fullTitle": "UT : Employee : Contact Us Validate contact-us submission",
               "timedOut": null,
-              "duration": 8444,
+              "duration": 10058,
               "state": "passed",
-              "speed": "medium",
+              "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-              "uuid": "60a67957-48a7-40e2-9e3b-9fed13ae148b",
-              "parentUUID": "d5f928b2-72d3-4de4-a97e-a2ced7d83f63",
+              "uuid": "0aa97e84-655e-4e8b-ad0d-b08188ca624b",
+              "parentUUID": "950faa9c-768b-46ee-807d-b0052e1430b7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d816c872-9314-4e5f-8915-a9e07192a83f",
-            "d6529900-25ac-4f2f-85d2-7d3aab5b4e3b",
-            "98abbb2a-3fc5-4ffe-a054-770e09dd52bf",
-            "60a67957-48a7-40e2-9e3b-9fed13ae148b"
+            "38283b3b-ede6-4d8d-aa28-d229176ba8d9",
+            "f5a50b45-8872-470e-905f-5f706358b8a4",
+            "002a9938-dad8-4947-a987-b2da5ea9e864",
+            "0aa97e84-655e-4e8b-ad0d-b08188ca624b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 34182,
+          "duration": 36398,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -133,7 +133,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "2e301b38-a8e6-4c98-8b32-571237d89986",
+      "uuid": "78d04af4-2107-4dbf-9ec5-eb377bd3857c",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\employee\\profile.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\employee\\profile.cy.ts",
@@ -142,7 +142,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "cc550bfd-8483-4645-a146-2571be04fdd5",
+          "uuid": "87f0d909-cd9e-47d6-b24d-771dbf0476dc",
           "title": "UT : Employee : General",
           "fullFile": "",
           "file": "",
@@ -153,7 +153,7 @@
               "title": "Application Menu : Check texts/labels if visible",
               "fullTitle": "UT : Employee : General Application Menu : Check texts/labels if visible",
               "timedOut": null,
-              "duration": 26293,
+              "duration": 25469,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -162,20 +162,20 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('E');",
               "err": {},
-              "uuid": "2f2d97e4-0a15-46f2-9989-d7f26cfd57ae",
-              "parentUUID": "cc550bfd-8483-4645-a146-2571be04fdd5",
+              "uuid": "7b933d6f-534f-4c4a-a772-d91d88f162c9",
+              "parentUUID": "87f0d909-cd9e-47d6-b24d-771dbf0476dc",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2f2d97e4-0a15-46f2-9989-d7f26cfd57ae"
+            "7b933d6f-534f-4c4a-a772-d91d88f162c9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 26293,
+          "duration": 25469,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -191,7 +191,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "5d21666d-db20-48d0-93ec-e5b17cf70d02",
+      "uuid": "129baaf2-5212-478f-bbbc-6294ce70a975",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\employee\\reg_codes.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\employee\\reg_codes.cy.ts",
@@ -200,7 +200,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+          "uuid": "baf8c3fb-f5ff-423e-9073-b2db28219092",
           "title": "UT : Add New Managers : Registration codes",
           "fullFile": "",
           "file": "",
@@ -211,7 +211,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Add New Managers : Registration codes Default items should visible",
               "timedOut": null,
-              "duration": 33672,
+              "duration": 33164,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -224,8 +224,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: expected '<span.MuiTypography-root-1.MuiTypography-caption-4>' to contain text 'PII Protect Copyright © 2025', but the text was 'Breach Secure Now! Copyright © 2025'\n    at __webpack_modules__../cypress/page-objects/pii-portal/new_user.ts.NewUser.register (webpack://pii-protect/./cypress/page-objects/pii-portal/new_user.ts:69:44)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/reg_codes.cy.ts:40:17)",
                 "diff": "- 'Breach Secure Now! Copyright © 2025'\n+ 'PII Protect Copyright © 2025'\n"
               },
-              "uuid": "4882180d-9fd6-48f9-81ea-f975fa819ffa",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "da4f3051-824a-46a4-81db-8bc3c254f355",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -233,7 +233,7 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "UT : Add New Managers : Registration codes Validate successful new user account creation",
               "timedOut": null,
-              "duration": 12576,
+              "duration": 13705,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -242,8 +242,8 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'success_creation');",
               "err": {},
-              "uuid": "d90d657b-5d9a-41c3-bad9-85bafc039d12",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "b26c24eb-952a-4ed4-bb4f-b76a5cf4f100",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -251,7 +251,7 @@
               "title": "Validate existing user",
               "fullTitle": "UT : Add New Managers : Registration codes Validate existing user",
               "timedOut": null,
-              "duration": 5487,
+              "duration": 6332,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -260,8 +260,8 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'already_exist');",
               "err": {},
-              "uuid": "57bad23a-ce0b-42de-9301-12bfbbb4ca51",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "e141f78e-6d62-481d-b63a-78b77a43f5d1",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -269,7 +269,7 @@
               "title": "Validate cancel adding new user",
               "fullTitle": "UT : Add New Managers : Registration codes Validate cancel adding new user",
               "timedOut": null,
-              "duration": 327,
+              "duration": 323,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -278,8 +278,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('cancel_creating_user', null);",
               "err": {},
-              "uuid": "268358db-cf3d-49a3-a9d2-8a72396ab552",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "64ee6649-2339-4687-b822-0cf82e38266f",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -287,7 +287,7 @@
               "title": "Check field validations",
               "fullTitle": "UT : Add New Managers : Registration codes Check field validations",
               "timedOut": null,
-              "duration": 1752,
+              "duration": 1732,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -296,8 +296,8 @@
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
-              "uuid": "e393d5a6-a353-4bdf-99ac-7225a750f0e7",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "8c1d093a-d2d6-4a35-b990-e2a860a2cab7",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -305,7 +305,7 @@
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "UT : Add New Managers : Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
-              "duration": 5137,
+              "duration": 5445,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -314,8 +314,8 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
-              "uuid": "fdc002be-535e-4704-99b2-4ff48b598bb1",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "2f2301da-a41d-4ed8-b838-16c45124935d",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -323,7 +323,7 @@
               "title": "Validate matching password and verify password fields",
               "fullTitle": "UT : Add New Managers : Registration codes Validate matching password and verify password fields",
               "timedOut": null,
-              "duration": 4323,
+              "duration": 4569,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -332,8 +332,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
-              "uuid": "c4507c7d-a330-4963-8214-0d119cca468f",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "52d3921b-fa90-4791-903d-c4c4777c03f5",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -341,7 +341,7 @@
               "title": "Create account : Validate Password Strength - risk",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - risk",
               "timedOut": null,
-              "duration": 459,
+              "duration": 475,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -350,8 +350,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "76228116-49ef-4445-8557-e153984b9314",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "e6086b5d-eaa0-4cf1-9202-624bf8cc7424",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -359,7 +359,7 @@
               "title": "Create account : Validate Password Strength - weak",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - weak",
               "timedOut": null,
-              "duration": 495,
+              "duration": 504,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -368,8 +368,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "5080ee6a-2c5b-41ff-aaba-143e52290b13",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "060466f2-0f5c-49fb-8c21-268ca5ca1d8c",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -377,7 +377,7 @@
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
-              "duration": 556,
+              "duration": 565,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -386,8 +386,8 @@
               "context": null,
               "code": "cy.visit(Cypress.env(\"url\"));\nNEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "54a23800-52d5-4214-8886-3efdb67ec85c",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "e63d16f3-235f-4efd-a14b-5471f7572815",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -395,7 +395,7 @@
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
-              "duration": 587,
+              "duration": 601,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -404,8 +404,8 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "73d35696-74c4-402a-97a6-8ea50a6d1d65",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "a7910f4d-bdd4-4bb9-8143-e6e6eaf28d69",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             },
@@ -413,7 +413,7 @@
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "UT : Add New Managers : Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
-              "duration": 709,
+              "duration": 694,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -422,32 +422,32 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "743cc7f2-0f4d-4062-aa60-1c822c96bdd2",
-              "parentUUID": "ab602bdd-162e-4d18-9401-3213d59fdc5e",
+              "uuid": "3e95654a-4652-462f-83a0-1f9aea7486b6",
+              "parentUUID": "baf8c3fb-f5ff-423e-9073-b2db28219092",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d90d657b-5d9a-41c3-bad9-85bafc039d12",
-            "57bad23a-ce0b-42de-9301-12bfbbb4ca51",
-            "268358db-cf3d-49a3-a9d2-8a72396ab552",
-            "e393d5a6-a353-4bdf-99ac-7225a750f0e7",
-            "fdc002be-535e-4704-99b2-4ff48b598bb1",
-            "c4507c7d-a330-4963-8214-0d119cca468f",
-            "76228116-49ef-4445-8557-e153984b9314",
-            "5080ee6a-2c5b-41ff-aaba-143e52290b13",
-            "54a23800-52d5-4214-8886-3efdb67ec85c",
-            "73d35696-74c4-402a-97a6-8ea50a6d1d65",
-            "743cc7f2-0f4d-4062-aa60-1c822c96bdd2"
+            "b26c24eb-952a-4ed4-bb4f-b76a5cf4f100",
+            "e141f78e-6d62-481d-b63a-78b77a43f5d1",
+            "64ee6649-2339-4687-b822-0cf82e38266f",
+            "8c1d093a-d2d6-4a35-b990-e2a860a2cab7",
+            "2f2301da-a41d-4ed8-b838-16c45124935d",
+            "52d3921b-fa90-4791-903d-c4c4777c03f5",
+            "e6086b5d-eaa0-4cf1-9202-624bf8cc7424",
+            "060466f2-0f5c-49fb-8c21-268ca5ca1d8c",
+            "e63d16f3-235f-4efd-a14b-5471f7572815",
+            "a7910f4d-bdd4-4bb9-8143-e6e6eaf28d69",
+            "3e95654a-4652-462f-83a0-1f9aea7486b6"
           ],
           "failures": [
-            "4882180d-9fd6-48f9-81ea-f975fa819ffa"
+            "da4f3051-824a-46a4-81db-8bc3c254f355"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 66080,
+          "duration": 68109,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -463,7 +463,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "381d6afb-8009-459d-9293-be0f7b7b48e1",
+      "uuid": "660729f5-0e90-4132-8c88-ef503de082de",
       "title": "",
       "fullFile": "cypress\\e2e\\unlimited-training\\employee\\my-dashboard\\employee_training.cy.ts",
       "file": "cypress\\e2e\\unlimited-training\\employee\\my-dashboard\\employee_training.cy.ts",
@@ -472,7 +472,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+          "uuid": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
           "title": "UT : Employee : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -483,7 +483,7 @@
               "title": "Default items should visible",
               "fullTitle": "UT : Employee : Dashboard : Training Default items should visible",
               "timedOut": null,
-              "duration": 34268,
+              "duration": 35137,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -493,11 +493,11 @@
               "code": "TRAINING.completedCourses('default_items');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "958be3de-ba25-41d6-aca1-4e7e5b5390b0",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "162c8f80-3355-4d9b-a7ee-a3a30a17f1fc",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             },
@@ -505,7 +505,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "UT : Employee : Dashboard : Training Check texts/labels if visible",
               "timedOut": null,
-              "duration": 9175,
+              "duration": 9501,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -515,11 +515,11 @@
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:46:17)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:46:17)",
                 "diff": null
               },
-              "uuid": "c972e188-f68e-4c08-a200-69e92d76807b",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "3a08c18c-937a-4ae7-8cc1-90907bc17f81",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             },
@@ -527,7 +527,7 @@
               "title": "Validate Cybersecurity Training Videos",
               "fullTitle": "UT : Employee : Dashboard : Training Validate Cybersecurity Training Videos",
               "timedOut": null,
-              "duration": 9585,
+              "duration": 9113,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -537,11 +537,11 @@
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:52:17)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:52:17)",
                 "diff": null
               },
-              "uuid": "31e004bf-e07d-4636-9c81-f1406c09888a",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "66fe46a7-2937-47d1-9653-153fab5e2a62",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             },
@@ -549,7 +549,7 @@
               "title": "Training (EDGE) : Validate Security Quiz",
               "fullTitle": "UT : Employee : Dashboard : Training Training (EDGE) : Validate Security Quiz",
               "timedOut": null,
-              "duration": 9392,
+              "duration": 9733,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -559,11 +559,11 @@
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:58:17)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:58:17)",
                 "diff": null
               },
-              "uuid": "a8eacb2b-f069-4486-b90c-5a4b9c3244eb",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "8bc7e1dd-b49b-4afe-a5f2-e3417ef99179",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             },
@@ -571,7 +571,7 @@
               "title": "Training (EDGE) : Validate Reviewing Security Quiz",
               "fullTitle": "UT : Employee : Dashboard : Training Training (EDGE) : Validate Reviewing Security Quiz",
               "timedOut": null,
-              "duration": 9448,
+              "duration": 9273,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -581,11 +581,11 @@
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:64:17)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:64:17)",
                 "diff": null
               },
-              "uuid": "56caa3df-8829-4981-b096-c53577764290",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "23ba9c04-141f-4122-90a5-85cce4465371",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             },
@@ -593,7 +593,7 @@
               "title": "Training : Validate Step 3 - Print Your Certificate",
               "fullTitle": "UT : Employee : Dashboard : Training Training : Validate Step 3 - Print Your Certificate",
               "timedOut": null,
-              "duration": 9439,
+              "duration": 9701,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -603,11 +603,11 @@
               "code": "TRAINING.completedCourses('print_certificate');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:70:17)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `securityTraining`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/training.ts.myDashboardTraining.completedCourses (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/training.ts:258:11)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/unlimited-training/employee/my-dashboard/employee_training.cy.ts:70:17)",
                 "diff": null
               },
-              "uuid": "d05ff32d-1a6f-4d37-a5f5-13a1cf589d2c",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "44bc0ab3-1e09-4e0a-ab6a-3ba0ccacb983",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             },
@@ -615,7 +615,7 @@
               "title": "Validate Enrolled Courses",
               "fullTitle": "UT : Employee : Dashboard : Training Validate Enrolled Courses",
               "timedOut": null,
-              "duration": 13655,
+              "duration": 13713,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -625,11 +625,11 @@
               "code": "TRAINING.enrolledCourses();",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `trainingCourses`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76205:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76259:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137449:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137475:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145831:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145772:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)",
                 "diff": null
               },
-              "uuid": "b54a118f-0f1e-4718-b7b3-ab1d4f04fdd1",
-              "parentUUID": "50ed29c8-1712-4e2e-b199-f10e93649c2b",
+              "uuid": "20032515-462a-48af-94e7-42a9c2e59100",
+              "parentUUID": "6a49608d-2c5a-4f23-bd7d-71eeaa166efd",
               "isHook": false,
               "skipped": false
             }
@@ -637,17 +637,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "958be3de-ba25-41d6-aca1-4e7e5b5390b0",
-            "c972e188-f68e-4c08-a200-69e92d76807b",
-            "31e004bf-e07d-4636-9c81-f1406c09888a",
-            "a8eacb2b-f069-4486-b90c-5a4b9c3244eb",
-            "56caa3df-8829-4981-b096-c53577764290",
-            "d05ff32d-1a6f-4d37-a5f5-13a1cf589d2c",
-            "b54a118f-0f1e-4718-b7b3-ab1d4f04fdd1"
+            "162c8f80-3355-4d9b-a7ee-a3a30a17f1fc",
+            "3a08c18c-937a-4ae7-8cc1-90907bc17f81",
+            "66fe46a7-2937-47d1-9653-153fab5e2a62",
+            "8bc7e1dd-b49b-4afe-a5f2-e3417ef99179",
+            "23ba9c04-141f-4122-90a5-85cce4465371",
+            "44bc0ab3-1e09-4e0a-ab6a-3ba0ccacb983",
+            "20032515-462a-48af-94e7-42a9c2e59100"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 94962,
+          "duration": 96171,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -665,7 +665,7 @@
   ],
   "meta": {
     "mocha": {
-      "version": "7.0.1"
+      "version": "7.2.0"
     },
     "mochawesome": {
       "options": {
